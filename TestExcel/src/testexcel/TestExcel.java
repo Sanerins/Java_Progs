@@ -16,15 +16,12 @@ public class TestExcel {
     static String fname = "dataf_medium.xlsx";
     
     public static void main(String[] args) {
-
-        //Разкомментить нужное
-
-        //Первая практика
-        //boolean result = ExcelReader.read(fname);
-
-        //Вторая практика
-        //LogAnalyzer.analyze("file");
         
+        
+        LogAnalyzer.analyze("data");
+        
+        
+        // boolean result = ExcelReader.read(fname);
     }
     
 }

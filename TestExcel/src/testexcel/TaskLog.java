@@ -1,8 +1,20 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package testexcel;
+
 import org.apache.poi.ss.usermodel.Workbook;
+
+/**
+ *
+ * @author student
+ */
 public class TaskLog {
-    private String fileName;
-    private Workbook workbook;
+    private String fileName;   // имя файла электронной таблицы
+    private Workbook workbook; // объект - электронная таблица
+    int maxTime ;    // максимальной время на задачу в секундах
 
     public TaskLog(String fileName, Workbook workbook) {
         this.fileName = fileName;
@@ -24,4 +36,5 @@ public class TaskLog {
     public void setWorkbook(Workbook workbook) {
         this.workbook = workbook;
     }
+    
 }
